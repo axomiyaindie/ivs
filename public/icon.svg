@@ -1,0 +1,48 @@
+<svg width="512" height="512" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="indieGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="24" fill="#0F172A"/>
+
+  <!-- Main Spark / Stack Icon -->
+  <g transform="translate(50 50)">
+    
+    <!-- Outer Glow Shape -->
+    <path
+      d="M0 -34
+         L10 -10
+         L34 0
+         L10 10
+         L0 34
+         L-10 10
+         L-34 0
+         L-10 -10
+         Z"
+      fill="url(#indieGradient)"
+    />
+
+    <!-- Inner Layer -->
+    <path
+      d="M0 -18
+         L6 -6
+         L18 0
+         L6 6
+         L0 18
+         L-6 6
+         L-18 0
+         L-6 -6
+         Z"
+      fill="white"
+      opacity="0.95"
+    />
+
+    <!-- Center Core -->
+    <circle cx="0" cy="0" r="4" fill="#0F172A"/>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<svg width="980" height="240" viewBox="0 0 980 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Premium Gradient -->
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <!-- Soft Shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity="0.12"/>
+    </filter>
+
+  </defs>
+
+  <!-- White Premium Card -->
+  <rect
+    x="10"
+    y="10"
+    width="960"
+    height="220"
+    rx="32"
+    fill="white"
+    filter="url(#shadow)"
+  />
+
+  <!-- Icon -->
+  <g transform="translate(48 48)">
+
+    <!-- Bottom -->
+    <rect
+      x="18"
+      y="72"
+      width="76"
+      height="76"
+      rx="20"
+      transform="rotate(-45 18 72)"
+      fill="#06B6D4"
+    />
+
+    <!-- Middle -->
+    <rect
+      x="18"
+      y="52"
+      width="76"
+      height="76"
+      rx="20"
+      transform="rotate(-45 18 52)"
+      fill="#8B5CF6"
+    />
+
+    <!-- Top -->
+    <rect
+      x="18"
+      y="32"
+      width="76"
+      height="76"
+      rx="20"
+      transform="rotate(-45 18 32)"
+      fill="#EC4899"
+    />
+
+    <!-- Spark -->
+    <path
+      d="M56 8
+         C59 26 69 36 87 39
+         C69 42 59 52 56 70
+         C53 52 43 42 25 39
+         C43 36 53 26 56 8Z"
+      fill="white"
+    />
+
+  </g>
+
+  <!-- Main Brand -->
+  <text
+    x="190"
+    y="102"
+    fill="#0F172A"
+    font-size="68"
+    font-family="Inter, sans-serif"
+    font-weight="800"
+    letter-spacing="-2">
+
+    Indie<tspan fill="url(#brandGradient)">Vibe</tspan>Stack
+  </text>
+
+  <!-- Tagline -->
+  <text
+    x="194"
+    y="145"
+    fill="#64748B"
+    font-size="24"
+    font-family="Inter, sans-serif"
+    font-weight="500">
+
+    Make a Living with AI
+  </text>
+
+</svg>
