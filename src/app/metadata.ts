@@ -47,7 +47,6 @@ export const metadata: Metadata = {
     ],
     locale: "en_US",
     type: "website",
-    authors: ["Rakibul"],
   },
   
   // Twitter Card
@@ -73,8 +72,6 @@ export const metadata: Metadata = {
   // Verification
   verification: {
     google: "A8wskx8nC830MPRqphjcUgeBznTKVkFUWtD_EwGqEo8",
-    // yandex: "your-yandex-verification", // optional
-    // yahoo: "your-yahoo-verification", // optional
   },
   
   // Robots
@@ -90,7 +87,7 @@ export const metadata: Metadata = {
     },
   },
   
-  // Additional SEO tags
+  // Additional SEO tags (authors moved here - outside openGraph)
   authors: [{ name: "Rakibul", url: "https://x.com/rakibulio" }],
   creator: "Rakibul",
   publisher: "IndieVibeStack",
